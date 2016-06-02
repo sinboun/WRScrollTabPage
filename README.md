@@ -1,8 +1,8 @@
 
 #效果
 
-![Mou icon](http://upload-images.jianshu.io/upload_images/1947062-b6a45ed7f14e1daf.gif?imageMogr2/auto-orient/strip)
-
+![Mou icon](https://raw.githubusercontent.com/TiltCitySong/WRScrollTabPage/master/image/Untitled2.gif)
+![Mou icon](https://raw.githubusercontent.com/TiltCitySong/WRScrollTabPage/master/image/Untitled.gif)
 #1、拖入框架文件
 ```swift
 在你的项目中拖入WRScrollTabPage文件夹
