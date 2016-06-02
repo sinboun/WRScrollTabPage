@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB9A4171CFE920000B94A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A4161CFE920000B94A9F /* main.m */; };
+		7BB9A41A1CFE920000B94A9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A4191CFE920000B94A9F /* AppDelegate.m */; };
+		7BB9A41D1CFE920000B94A9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A41C1CFE920000B94A9F /* ViewController.m */; };
+		7BB9A4201CFE920000B94A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9A41E1CFE920000B94A9F /* Main.storyboard */; };
+		7BB9A4221CFE920000B94A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9A4211CFE920000B94A9F /* Assets.xcassets */; };
+		7BB9A4251CFE920000B94A9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9A4231CFE920000B94A9F /* LaunchScreen.storyboard */; };
+		7BB9A4301CFE920100B94A9F /* WRScrollTabPageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A42F1CFE920100B94A9F /* WRScrollTabPageTests.m */; };
+		7BB9A43B1CFE920100B94A9F /* WRScrollTabPageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A43A1CFE920100B94A9F /* WRScrollTabPageUITests.m */; };
+		7BB9A4531CFE925500B94A9F /* WRContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A44A1CFE925500B94A9F /* WRContentTableViewController.m */; };
+		7BB9A4541CFE925500B94A9F /* WRContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A44C1CFE925500B94A9F /* WRContentViewController.m */; };
+		7BB9A4551CFE925500B94A9F /* WRPageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A44E1CFE925500B94A9F /* WRPageHeaderView.m */; };
+		7BB9A4561CFE925500B94A9F /* WRPageMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A4501CFE925500B94A9F /* WRPageMenuView.m */; };
+		7BB9A4571CFE925500B94A9F /* WRPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A4521CFE925500B94A9F /* WRPageViewController.m */; };
+		7BB9A45B1CFE9CC400B94A9F /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A45A1CFE9CC400B94A9F /* UINavigationBar+Awesome.m */; };
+		7BB9A45F1CFE9FF300B94A9F /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A45E1CFE9FF300B94A9F /* Demo1ViewController.m */; };
+		7BB9A4621CFEA00400B94A9F /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A4611CFEA00400B94A9F /* Demo2ViewController.m */; };
+		7BB9A4661CFEA1E500B94A9F /* Item1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A4651CFEA1E500B94A9F /* Item1ViewController.m */; };
+		7BB9A4691CFEA1F600B94A9F /* Item2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9A4681CFEA1F600B94A9F /* Item2ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB9A42C1CFE920100B94A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB9A40A1CFE920000B94A9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB9A4111CFE920000B94A9F;
+			remoteInfo = WRScrollTabPage;
+		};
+		7BB9A4371CFE920100B94A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB9A40A1CFE920000B94A9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB9A4111CFE920000B94A9F;
+			remoteInfo = WRScrollTabPage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BB9A4121CFE920000B94A9F /* WRScrollTabPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WRScrollTabPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB9A4161CFE920000B94A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BB9A4181CFE920000B94A9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BB9A4191CFE920000B94A9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BB9A41B1CFE920000B94A9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BB9A41C1CFE920000B94A9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BB9A41F1CFE920000B94A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BB9A4211CFE920000B94A9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BB9A4241CFE920000B94A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BB9A4261CFE920000B94A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB9A42B1CFE920100B94A9F /* WRScrollTabPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WRScrollTabPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB9A42F1CFE920100B94A9F /* WRScrollTabPageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WRScrollTabPageTests.m; sourceTree = "<group>"; };
+		7BB9A4311CFE920100B94A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB9A4361CFE920100B94A9F /* WRScrollTabPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WRScrollTabPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB9A43A1CFE920100B94A9F /* WRScrollTabPageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WRScrollTabPageUITests.m; sourceTree = "<group>"; };
+		7BB9A43C1CFE920100B94A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB9A4491CFE925500B94A9F /* WRContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRContentTableViewController.h; sourceTree = "<group>"; };
+		7BB9A44A1CFE925500B94A9F /* WRContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRContentTableViewController.m; sourceTree = "<group>"; };
+		7BB9A44B1CFE925500B94A9F /* WRContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRContentViewController.h; sourceTree = "<group>"; };
+		7BB9A44C1CFE925500B94A9F /* WRContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRContentViewController.m; sourceTree = "<group>"; };
+		7BB9A44D1CFE925500B94A9F /* WRPageHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRPageHeaderView.h; sourceTree = "<group>"; };
+		7BB9A44E1CFE925500B94A9F /* WRPageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRPageHeaderView.m; sourceTree = "<group>"; };
+		7BB9A44F1CFE925500B94A9F /* WRPageMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRPageMenuView.h; sourceTree = "<group>"; };
+		7BB9A4501CFE925500B94A9F /* WRPageMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRPageMenuView.m; sourceTree = "<group>"; };
+		7BB9A4511CFE925500B94A9F /* WRPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRPageViewController.h; sourceTree = "<group>"; };
+		7BB9A4521CFE925500B94A9F /* WRPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRPageViewController.m; sourceTree = "<group>"; };
+		7BB9A4591CFE9CC400B94A9F /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		7BB9A45A1CFE9CC400B94A9F /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		7BB9A45D1CFE9FF300B94A9F /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		7BB9A45E1CFE9FF300B94A9F /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		7BB9A4601CFEA00400B94A9F /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		7BB9A4611CFEA00400B94A9F /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		7BB9A4641CFEA1E500B94A9F /* Item1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item1ViewController.h; sourceTree = "<group>"; };
+		7BB9A4651CFEA1E500B94A9F /* Item1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item1ViewController.m; sourceTree = "<group>"; };
+		7BB9A4671CFEA1F600B94A9F /* Item2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item2ViewController.h; sourceTree = "<group>"; };
+		7BB9A4681CFEA1F600B94A9F /* Item2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item2ViewController.m; sourceTree = "<group>"; };
+		7BB9A46A1CFEB50700B94A9F /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB9A40F1CFE920000B94A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9A4281CFE920100B94A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9A4331CFE920100B94A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB9A4091CFE91FF00B94A9F = {
+			isa = PBXGroup;
+			children = (
+				7BB9A4141CFE920000B94A9F /* WRScrollTabPage */,
+				7BB9A42E1CFE920100B94A9F /* WRScrollTabPageTests */,
+				7BB9A4391CFE920100B94A9F /* WRScrollTabPageUITests */,
+				7BB9A4131CFE920000B94A9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB9A4131CFE920000B94A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9A4121CFE920000B94A9F /* WRScrollTabPage.app */,
+				7BB9A42B1CFE920100B94A9F /* WRScrollTabPageTests.xctest */,
+				7BB9A4361CFE920100B94A9F /* WRScrollTabPageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB9A4141CFE920000B94A9F /* WRScrollTabPage */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9A46A1CFEB50700B94A9F /* Reveal.framework */,
+				7BB9A4581CFE9CC400B94A9F /* LTNavigationBar */,
+				7BB9A4481CFE925500B94A9F /* WRScrollTabPage */,
+				7BB9A4181CFE920000B94A9F /* AppDelegate.h */,
+				7BB9A4191CFE920000B94A9F /* AppDelegate.m */,
+				7BB9A41B1CFE920000B94A9F /* ViewController.h */,
+				7BB9A41C1CFE920000B94A9F /* ViewController.m */,
+				7BB9A45C1CFE9FDA00B94A9F /* ViewControllers */,
+				7BB9A41E1CFE920000B94A9F /* Main.storyboard */,
+				7BB9A4211CFE920000B94A9F /* Assets.xcassets */,
+				7BB9A4231CFE920000B94A9F /* LaunchScreen.storyboard */,
+				7BB9A4261CFE920000B94A9F /* Info.plist */,
+				7BB9A4151CFE920000B94A9F /* Supporting Files */,
+			);
+			path = WRScrollTabPage;
+			sourceTree = "<group>";
+		};
+		7BB9A4151CFE920000B94A9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9A4161CFE920000B94A9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BB9A42E1CFE920100B94A9F /* WRScrollTabPageTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9A42F1CFE920100B94A9F /* WRScrollTabPageTests.m */,
+				7BB9A4311CFE920100B94A9F /* Info.plist */,
+			);
+			path = WRScrollTabPageTests;
+			sourceTree = "<group>";
+		};
+		7BB9A4391CFE920100B94A9F /* WRScrollTabPageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9A43A1CFE920100B94A9F /* WRScrollTabPageUITests.m */,
+				7BB9A43C1CFE920100B94A9F /* Info.plist */,
+			);
+			path = WRScrollTabPageUITests;
+			sourceTree = "<group>";
+		};
+		7BB9A4481CFE925500B94A9F /* WRScrollTabPage */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9A4491CFE925500B94A9F /* WRContentTableViewController.h */,
+				7BB9A44A1CFE925500B94A9F /* WRContentTableViewController.m */,
+				7BB9A44B1CFE925500B94A9F /* WRContentViewController.h */,
+				7BB9A44C1CFE925500B94A9F /* WRContentViewController.m */,
+				7BB9A44D1CFE925500B94A9F /* WRPageHeaderView.h */,
+				7BB9A44E1CFE925500B94A9F /* WRPageHeaderView.m */,
+				7BB9A44F1CFE925500B94A9F /* WRPageMenuView.h */,
+				7BB9A4501CFE925500B94A9F /* WRPageMenuView.m */,
+				7BB9A4511CFE925500B94A9F /* WRPageViewController.h */,
+				7BB9A4521CFE925500B94A9F /* WRPageViewController.m */,
+			);
+			path = WRScrollTabPage;
+			sourceTree = "<group>";
+		};
+		7BB9A4581CFE9CC400B94A9F /* LTNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9A4591CFE9CC400B94A9F /* UINavigationBar+Awesome.h */,
+				7BB9A45A1CFE9CC400B94A9F /* UINavigationBar+Awesome.m */,
+			);
+			path = LTNavigationBar;
+			sourceTree = "<group>";
+		};
+		7BB9A45C1CFE9FDA00B94A9F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9A4631CFEA1CA00B94A9F /* sub */,
+				7BB9A45D1CFE9FF300B94A9F /* Demo1ViewController.h */,
+				7BB9A45E1CFE9FF300B94A9F /* Demo1ViewController.m */,
+				7BB9A4601CFEA00400B94A9F /* Demo2ViewController.h */,
+				7BB9A4611CFEA00400B94A9F /* Demo2ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7BB9A4631CFEA1CA00B94A9F /* sub */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9A4641CFEA1E500B94A9F /* Item1ViewController.h */,
+				7BB9A4651CFEA1E500B94A9F /* Item1ViewController.m */,
+				7BB9A4671CFEA1F600B94A9F /* Item2ViewController.h */,
+				7BB9A4681CFEA1F600B94A9F /* Item2ViewController.m */,
+			);
+			path = sub;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB9A4111CFE920000B94A9F /* WRScrollTabPage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB9A43F1CFE920100B94A9F /* Build configuration list for PBXNativeTarget "WRScrollTabPage" */;
+			buildPhases = (
+				7BB9A40E1CFE920000B94A9F /* Sources */,
+				7BB9A40F1CFE920000B94A9F /* Frameworks */,
+				7BB9A4101CFE920000B94A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WRScrollTabPage;
+			productName = WRScrollTabPage;
+			productReference = 7BB9A4121CFE920000B94A9F /* WRScrollTabPage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB9A42A1CFE920100B94A9F /* WRScrollTabPageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB9A4421CFE920100B94A9F /* Build configuration list for PBXNativeTarget "WRScrollTabPageTests" */;
+			buildPhases = (
+				7BB9A4271CFE920100B94A9F /* Sources */,
+				7BB9A4281CFE920100B94A9F /* Frameworks */,
+				7BB9A4291CFE920100B94A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB9A42D1CFE920100B94A9F /* PBXTargetDependency */,
+			);
+			name = WRScrollTabPageTests;
+			productName = WRScrollTabPageTests;
+			productReference = 7BB9A42B1CFE920100B94A9F /* WRScrollTabPageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BB9A4351CFE920100B94A9F /* WRScrollTabPageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB9A4451CFE920100B94A9F /* Build configuration list for PBXNativeTarget "WRScrollTabPageUITests" */;
+			buildPhases = (
+				7BB9A4321CFE920100B94A9F /* Sources */,
+				7BB9A4331CFE920100B94A9F /* Frameworks */,
+				7BB9A4341CFE920100B94A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB9A4381CFE920100B94A9F /* PBXTargetDependency */,
+			);
+			name = WRScrollTabPageUITests;
+			productName = WRScrollTabPageUITests;
+			productReference = 7BB9A4361CFE920100B94A9F /* WRScrollTabPageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB9A40A1CFE920000B94A9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wenrui;
+				TargetAttributes = {
+					7BB9A4111CFE920000B94A9F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7BB9A42A1CFE920100B94A9F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7BB9A4111CFE920000B94A9F;
+					};
+					7BB9A4351CFE920100B94A9F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7BB9A4111CFE920000B94A9F;
+					};
+				};
+			};
+			buildConfigurationList = 7BB9A40D1CFE920000B94A9F /* Build configuration list for PBXProject "WRScrollTabPage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB9A4091CFE91FF00B94A9F;
+			productRefGroup = 7BB9A4131CFE920000B94A9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB9A4111CFE920000B94A9F /* WRScrollTabPage */,
+				7BB9A42A1CFE920100B94A9F /* WRScrollTabPageTests */,
+				7BB9A4351CFE920100B94A9F /* WRScrollTabPageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB9A4101CFE920000B94A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9A4251CFE920000B94A9F /* LaunchScreen.storyboard in Resources */,
+				7BB9A4221CFE920000B94A9F /* Assets.xcassets in Resources */,
+				7BB9A4201CFE920000B94A9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9A4291CFE920100B94A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9A4341CFE920100B94A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB9A40E1CFE920000B94A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9A4531CFE925500B94A9F /* WRContentTableViewController.m in Sources */,
+				7BB9A4541CFE925500B94A9F /* WRContentViewController.m in Sources */,
+				7BB9A41D1CFE920000B94A9F /* ViewController.m in Sources */,
+				7BB9A41A1CFE920000B94A9F /* AppDelegate.m in Sources */,
+				7BB9A45B1CFE9CC400B94A9F /* UINavigationBar+Awesome.m in Sources */,
+				7BB9A4171CFE920000B94A9F /* main.m in Sources */,
+				7BB9A4561CFE925500B94A9F /* WRPageMenuView.m in Sources */,
+				7BB9A45F1CFE9FF300B94A9F /* Demo1ViewController.m in Sources */,
+				7BB9A4621CFEA00400B94A9F /* Demo2ViewController.m in Sources */,
+				7BB9A4571CFE925500B94A9F /* WRPageViewController.m in Sources */,
+				7BB9A4691CFEA1F600B94A9F /* Item2ViewController.m in Sources */,
+				7BB9A4551CFE925500B94A9F /* WRPageHeaderView.m in Sources */,
+				7BB9A4661CFEA1E500B94A9F /* Item1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9A4271CFE920100B94A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9A4301CFE920100B94A9F /* WRScrollTabPageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9A4321CFE920100B94A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9A43B1CFE920100B94A9F /* WRScrollTabPageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB9A42D1CFE920100B94A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB9A4111CFE920000B94A9F /* WRScrollTabPage */;
+			targetProxy = 7BB9A42C1CFE920100B94A9F /* PBXContainerItemProxy */;
+		};
+		7BB9A4381CFE920100B94A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB9A4111CFE920000B94A9F /* WRScrollTabPage */;
+			targetProxy = 7BB9A4371CFE920100B94A9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB9A41E1CFE920000B94A9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB9A41F1CFE920000B94A9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BB9A4231CFE920000B94A9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB9A4241CFE920000B94A9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB9A43D1CFE920100B94A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BB9A43E1CFE920100B94A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB9A4401CFE920100B94A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WRScrollTabPage",
+				);
+				INFOPLIST_FILE = WRScrollTabPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRScrollTabPage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BB9A4411CFE920100B94A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WRScrollTabPage",
+				);
+				INFOPLIST_FILE = WRScrollTabPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRScrollTabPage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BB9A4431CFE920100B94A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WRScrollTabPageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRScrollTabPageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WRScrollTabPage.app/WRScrollTabPage";
+			};
+			name = Debug;
+		};
+		7BB9A4441CFE920100B94A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WRScrollTabPageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRScrollTabPageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WRScrollTabPage.app/WRScrollTabPage";
+			};
+			name = Release;
+		};
+		7BB9A4461CFE920100B94A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WRScrollTabPageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRScrollTabPageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WRScrollTabPage;
+			};
+			name = Debug;
+		};
+		7BB9A4471CFE920100B94A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WRScrollTabPageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRScrollTabPageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WRScrollTabPage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB9A40D1CFE920000B94A9F /* Build configuration list for PBXProject "WRScrollTabPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB9A43D1CFE920100B94A9F /* Debug */,
+				7BB9A43E1CFE920100B94A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB9A43F1CFE920100B94A9F /* Build configuration list for PBXNativeTarget "WRScrollTabPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB9A4401CFE920100B94A9F /* Debug */,
+				7BB9A4411CFE920100B94A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BB9A4421CFE920100B94A9F /* Build configuration list for PBXNativeTarget "WRScrollTabPageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB9A4431CFE920100B94A9F /* Debug */,
+				7BB9A4441CFE920100B94A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BB9A4451CFE920100B94A9F /* Build configuration list for PBXNativeTarget "WRScrollTabPageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB9A4461CFE920100B94A9F /* Debug */,
+				7BB9A4471CFE920100B94A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB9A40A1CFE920000B94A9F /* Project object */;
+}
